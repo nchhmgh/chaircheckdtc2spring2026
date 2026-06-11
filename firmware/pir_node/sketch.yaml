@@ -1,0 +1,16 @@
+profiles:
+  esp32dev:
+    notes: PIR-only node on a generic ESP32 dev module
+    fqbn: esp32:esp32:esp32
+    platforms:
+      - platform: esp32:esp32 (3.3.8)
+        platform_index_url: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+
+  esp32cam:
+    notes: PIR-only node on an AI-Thinker ESP32-CAM (camera unused)
+    fqbn: esp32:esp32:esp32cam
+    platforms:
+      - platform: esp32:esp32 (3.3.8)
+        platform_index_url: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+
+default_profile: esp32dev
